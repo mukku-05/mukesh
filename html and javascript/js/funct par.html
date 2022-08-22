@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Java script</title>
+    <script>
+
+
+        function great(fname="mukesh",lname="verma"){    <!--here we have given the default values to -->
+                                                            <!--the function because if we dont pass any argument to funtion while its calling then it will automatically pass the default values to the function-->
+          document.write("hey" +"<br>" +  fname + "  " +  lname + "<br>");
+
+        }
+        function sub(a,b){
+          document.write(a-b);
+        }
+
+        great("everything","nothing");    <!--here the values will override the default values of function-->
+        great("style","mukeshh","<br>");            <!--here the values will override the default values of function-->
+
+        sub(10,5);
+      
+
+</script>
+  </head>
+  <body>
+
+  </body>
+</html>
